@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* actual css */
+
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero-bg {
+  background: rgba(46, 48, 48);
+  background: radial-gradient(
+    circle,
+    rgba(26, 25, 25, 1) 0%,
+    rgba(26, 25, 25, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
