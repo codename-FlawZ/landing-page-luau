@@ -7,10 +7,10 @@ import Navbar from "./components/Navbar"
 import Relations from "./components/Relations"
 import Thanks from "./components/Thanks"
 
-function App() {
+export default function App() {
 
   return (
-    <main className="w-full h-full text-white">
+    <main className="bg-black w-full h-full text-white">
       <Navbar />
       <Hero />
       <About />
@@ -22,5 +22,3 @@ function App() {
     </main>
   )
 }
-
-export default App

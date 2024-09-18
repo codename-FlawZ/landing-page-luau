@@ -1,6 +1,6 @@
 import { FaBars } from "react-icons/fa6";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
 	<header
    className="
@@ -44,8 +44,28 @@ const Navbar = () => {
      gap-5 
      max-sm:hidden
      ">
-      <a href="">Sobre</a>
-      <a href="">Proposta</a>
+      <a 
+      href="#Sobre"
+      className="
+       hover:text-neutral-400/60
+       transition-colors
+       ease-in-out
+       duration-150
+      "
+      >
+        Sobre
+      </a>
+      <a 
+      href=""
+      className="
+       hover:text-neutral-400/60
+       transition-colors
+       ease-in-out
+       duration-150
+      "
+      >
+        Proposta
+      </a>
       <button className="
        bg-sky-400
        rounded-xl
@@ -65,5 +85,3 @@ const Navbar = () => {
   </header>
   )
 }
-
-export default Navbar

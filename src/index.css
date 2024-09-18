@@ -13,9 +13,9 @@ html {
 .hero-bg {
   background: rgba(46, 48, 48);
   background: radial-gradient(
-    circle,
+    circle at center in hsl longer hue,
     rgba(26, 25, 25, 1) 0%,
-    rgba(26, 25, 25, 1) 50%,
+    rgba(26, 25, 25, 1) 75%,
     rgba(0, 0, 0, 1) 100%
   );
 }
