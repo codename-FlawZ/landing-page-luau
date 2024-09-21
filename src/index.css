@@ -15,7 +15,7 @@ html {
   background: radial-gradient(
     circle at center in hsl longer hue,
     rgba(26, 25, 25, 1) 0%,
-    rgba(26, 25, 25, 1) 75%,
+    rgba(26, 25, 25, 1) 5%,
     rgba(0, 0, 0, 1) 100%
   );
 }

@@ -8,12 +8,12 @@ export default function Navbar() {
     justify-between
     items-center
     w-full
-    h-[10vh]
+    h-[10vh] max-sm:h-[9vh]
     px-8 md:px-10
     py-6
     bg-transparent
     backdrop-blur-2xl
-    rounded-b-2xl
+    md:rounded-b-2xl
     drop-shadow-lg
     fixed
     overflow-hidden

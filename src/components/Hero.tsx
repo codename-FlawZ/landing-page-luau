@@ -82,7 +82,7 @@ export default function Hero() {
            opacity-0
            translate-y-20
           ">
-            Alguma coisa aqui =D
+            Veja abaixo mais detalhes
           </p>
           <MdKeyboardDoubleArrowDown
           id="heroscrollanimation" 
