@@ -43,13 +43,14 @@ export default function Hero() {
   // Main Code
 
   return (
-	<section className="
-   w-full 
-   h-screen 
-   hero-bg
+	<section
+   id="Home" 
+   className="
+   section 
+   bg
   ">
     <div className="
-     section
+     container
     ">
       <div className="
        flex
