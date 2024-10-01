@@ -45,7 +45,7 @@ html {
 }
 
 .section {
-  @apply w-full h-full overflow-hidden
+  @apply w-full h-screen overflow-hidden
 }
 
 .section-row {
