@@ -96,6 +96,10 @@ html {
   @apply md:w-[300px] md:h-[300px] border border-solid border-neutral-600 rounded-xl md:blur md:hover:blur-0 transition-all ease-in-out duration-150 max-sm:w-[95px] max-sm:h-[95px]
 }
 
+.card {
+  @apply p-5 m-4 mx-[0.05em] bg-neutral-100 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full overflow-hidden [animation:6s_slide_infinite_linear] relative;
+}
+
 /* Scrollbar */
 body::-webkit-scrollbar {
 	width: 5px;
@@ -111,4 +115,26 @@ body::-webkit-scrollbar {
 	background-color: #D0D0D0;
 	outline: 1px solid transparent;
 	border-radius: 20rem;
+  }
+
+  /* Slider animation */
+
+  @media (min-width: 768px) {
+    @keyframes slide {
+      from {
+        transform: translateX(0);
+      } to {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+  @media not all and (min-width: 640px) {
+    @keyframes slide {
+      from {
+        transform: translateY(0);
+      } to {
+        transform: translateY(-100%);
+      }
+    }
   }
