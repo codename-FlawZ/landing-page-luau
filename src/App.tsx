@@ -12,7 +12,7 @@ import Relations from "./components/Relations"
 export default function App() {
 
   return (
-    <main className="bg-black w-full h-full text-white">
+    <main className="bg w-full h-full text-white">
       <Navbar />
       <Hero />
       <About />
