@@ -37,7 +37,7 @@ Além disso, o Dia Internacional da Saúde Mental nos convida a refletir sobre o
           max-sm:hidden 
         ">
           <img 
-           src="../public/assets/images/relations-img.jpg" 
+           src="/assets/images/relations-img.jpg" 
            alt="Imagem Representativa do Outubro Rosa" 
            className="
             w-full
