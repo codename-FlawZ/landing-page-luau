@@ -30,8 +30,8 @@ export default function Prupouse() {
        ">
         <p 
          className="
-          max-sm:text-sm
-          text-lg
+          max-sm:text-xs
+          md:text-lg
           font-semibold
          ">
         O evento celebrará a chegada da primavera enquanto promove a conscientização sobre a prevenção ao câncer de mama, destacada pelo Outubro Rosa, e a importância da saúde mental, com atividades e que promovem o bem-estar emocional. Além disso, serão incorporadas práticas de sustentabilidade, incentivando o uso consciente de recursos, com decoração sustentável, redução de resíduos e incentivo a ações ecológicas. A proposta busca engajar a comunidade escolar de forma festiva e educativa, com ênfase no cuidado integral à saúde e ao meio ambiente.

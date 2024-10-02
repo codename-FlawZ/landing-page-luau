@@ -26,7 +26,7 @@ export default function About() {
       ">
         <div>
           <img 
-           src="../public/assets/images/about-img.png" 
+           src="/assets/images/about-img.png" 
            alt="Imagem exemplo de um luau" 
            className="
            section-row-img
@@ -44,7 +44,7 @@ export default function About() {
           </h1>
           <p
            className="
-            max-sm:text-sm
+            max-sm:text-xs
            ">
           Neste mês de outubro, a estação das flores nos convida a celebrar a vida e a saúde de uma forma especial. O Baile de Primavera visa trazer dois temas essenciais para o nosso cuidado e conscientização: o Outubro Rosa, campanha mundial de prevenção ao câncer de mama, e o Dia Internacional da Saúde Mental, lembrado em 10 de outubro.
           </p>

@@ -41,7 +41,7 @@ html {
 }
 
 .section-description {
-  @apply text-center font-medium text-xl max-sm:text-base 
+  @apply text-center font-medium md:text-xl max-sm:text-base 
 }
 
 .section {
@@ -49,7 +49,7 @@ html {
 }
 
 .section-row {
-  @apply flex flex-row justify-evenly gap-10 max-sm:flex-col m-20 max-sm:m-[3rem]
+  @apply flex flex-row justify-evenly gap-10 max-sm:flex-col m-20 max-sm:m-[2rem]
 }
 
 .section-row-description {
@@ -89,11 +89,11 @@ html {
 }
 
 .decoration-examples-container {
-  @apply flex max-sm:flex-col md:flex-row justify-center gap-3 md:pt-10 max-sm:items-center max-sm:pt-[3.5rem] max-sm:pb-10 md:pb-[4.5rem]
+  @apply flex max-sm:flex-col md:flex-row justify-center gap-2 md:pt-10 max-sm:items-center max-sm:pt-[1rem] max-sm:pb-10 md:pb-[4.5rem]
 }
 
 .decoration-images {
-  @apply md:w-[300px] md:h-[300px] border border-solid border-neutral-600 rounded-xl md:blur md:hover:blur-0 transition-all ease-in-out duration-150 max-sm:w-[150px] max-sm:h-[150px]
+  @apply md:w-[300px] md:h-[300px] border border-solid border-neutral-600 rounded-xl md:blur md:hover:blur-0 transition-all ease-in-out duration-150 max-sm:w-[95px] max-sm:h-[95px]
 }
 
 /* Scrollbar */

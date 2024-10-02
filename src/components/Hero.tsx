@@ -60,7 +60,7 @@ export default function Hero() {
        py-[5.5rem]
       ">
         <img 
-         src="../public/assets/images/logo.png" 
+         src="/assets/images/logo.png" 
          alt=""
          id="heroimg"
          className="

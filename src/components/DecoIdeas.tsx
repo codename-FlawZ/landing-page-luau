@@ -6,9 +6,9 @@ const DecoIdeas = () => {
       <h1 className="section-title">Ideias de decoração</h1>
       <p className="section-description">Veja aqui 3 exemplos de decoração para o evento</p>
       <div className="decoration-examples-container">
-        <img src="../public/assets/images/decoration-1.jpg" alt="" className="decoration-images" />
-        <img src="../public/assets/images/decoration-2.jpg" alt="" className="decoration-images" />
-        <img src="../public/assets/images/decoration-3.jpg" alt="" className="decoration-images" />
+        <img src="/assets/images/decoration-1.jpg" alt="" className="decoration-images" />
+        <img src="/assets/images/decoration-2.jpg" alt="" className="decoration-images" />
+        <img src="/assets/images/decoration-3.jpg" alt="" className="decoration-images" />
       </div>
     </div>
   </section>
