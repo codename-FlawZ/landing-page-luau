@@ -23,7 +23,7 @@ export default function Opinions() {
 			>
 				Veja abaixo a opinião de alguns alunos
 			</p>
-			<div className="flex justify-center gap-6">
+			<div className="flex justify-center gap-10">
 				<div className={twMerge("flex md:flex-row max-sm:flex-col md:gap-8 md:pt-8 max-sm:gap-5 max-sm:pt-5 md:[mask-image:linear-gradient(to_left,transparent,black_25%,black_75%,transparent)] max-sm:[mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]")}>
 					{opinions?.map(({ text, name, role }) => (
 						<div className="card" key={name || role}>

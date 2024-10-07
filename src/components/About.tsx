@@ -59,7 +59,7 @@ export default function About() {
             <p 
             className="
               font-bold
-              text-xl max-sm:text-lg
+              text-xl max-sm:text-base
               uppercase
              ">veja abaixo mais detalhes</p>
           </div>

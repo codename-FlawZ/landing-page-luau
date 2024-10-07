@@ -36,6 +36,10 @@ html {
   @apply bg-sky-400 rounded-xl w-full h-9 p-4 flex items-center hover:bg-sky-600 transition-colors ease-in-out duration-200
 }
 
+.invite-btn {
+  @apply bg-green-400 rounded-xl w-[60%] h-[4rem] p-4 flex items-center hover:bg-green-600 transition-colors ease-in-out duration-200 text-center md:text-3xl max-sm:text-lg justify-center
+}
+
 .section-title {
   @apply text-center font-bold text-[2.5rem] max-sm:text-2xl m-[4rem] max-sm:m-[2.5rem] uppercase flex justify-center bg-gradient-to-b from-neutral-100 to-neutral-500 text-transparent bg-clip-text
 }
@@ -61,7 +65,7 @@ html {
 }
 
 .section-row-img {
-  @apply w-full h-full rounded-2xl border border-solid border-neutral-50
+  @apply w-full max-sm:h-full md:h-[380px] rounded-2xl border border-solid border-neutral-50
 }
 
 .relations-description {
@@ -97,7 +101,7 @@ html {
 }
 
 .card {
-  @apply p-5 m-4 mx-[0.05em] bg-neutral-100 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full overflow-hidden [animation:6s_slide_infinite_linear] relative;
+  @apply p-5 m-4 mx-[0.05em] bg-neutral-100 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full overflow-hidden [animation:slide_20s_linear_infinite] relative;
 }
 
 /* Scrollbar */
@@ -121,20 +125,22 @@ body::-webkit-scrollbar {
 
   @media (min-width: 768px) {
     @keyframes slide {
-      from {
-        transform: translateX(0);
-      } to {
-        transform: translateX(-100%);
+      0% {
+        left: 100%;
       }
+      100%{
+        left: -100%;
+      } 
     }
   }
 
   @media not all and (min-width: 640px) {
     @keyframes slide {
-      from {
-        transform: translateY(0);
-      } to {
-        transform: translateY(-100%);
+      0% {
+        top: 0%;
+      }
+      100% {
+        top: -100%;
       }
     }
   }
